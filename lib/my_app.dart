@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shopin/features/authentication/screens/onboarding/onboarding.dart';
 import 'package:shopin/utils/theme/theme.dart';
 
 class MyApp extends StatelessWidget {
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: Stheme.lightTheme,
       darkTheme: Stheme.darkTheme,
-      home: Scaffold(),
+      home: OnBoardingScreen(),
     );
   }
 }
