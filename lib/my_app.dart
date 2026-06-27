@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shopin/features/authentication/screens/onboarding/home_page.dart';
 import 'package:shopin/features/authentication/screens/onboarding/onboarding.dart';
+
 import 'package:shopin/utils/theme/theme.dart';
 
 class MyApp extends StatelessWidget {
@@ -10,10 +11,27 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
       theme: Stheme.lightTheme,
       darkTheme: Stheme.darkTheme,
-      home: HomePage(),
+      debugShowCheckedModeBanner: false,
+      home: OnBoardingScreen(),
+      //  Scaffold(
+      //   backgroundColor: Colors.green,
+      //   body: Center(
+      //     child: Column(
+      //       children: [
+      //         Text(
+      //           "Hello",
+      //           style: TextStyle(fontSize: 35, color: Colors.white),
+      //         ),
+      //         Text(
+      //           "I am Kamal",
+      //           style: TextStyle(fontSize: 35, color: Colors.white),
+      //         ),
+      //       ],
+      //     ),
+      //   ),
+      // ),
     );
   }
 }

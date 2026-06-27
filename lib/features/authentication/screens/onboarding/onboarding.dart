@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shopin/utils/constants/text.dart';
 
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});
@@ -8,9 +9,28 @@ class OnBoardingScreen extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          Center(child: Text('Hello')),
-          Center(child: Text('I am Kamal')),
-          Center(child: Text('Welcome to my ecommerce app')),
+          PageView(
+            children: [
+              Center(
+                child: Text(
+                  Stext.onBoardingTile1,
+                  style: Theme.of(context).textTheme.headlineMedium,
+                ),
+              ),
+              Center(
+                child: Text(
+                  Stext.onBoardingTile2,
+                  style: Theme.of(context).textTheme.headlineMedium,
+                ),
+              ),
+              Center(
+                child: Text(
+                  Stext.onBoardingTitle3,
+                  style: Theme.of(context).textTheme.headlineMedium,
+                ),
+              ),
+            ],
+          ),
         ],
       ),
     );
