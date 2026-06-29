@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
 class Ssizes {
   // Padding and margin sizes
   static const double xs = 4.0; // extra small

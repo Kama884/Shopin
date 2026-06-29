@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shopin/features/authentication/screens/onboarding/home_page.dart';
+
 import 'package:shopin/features/authentication/screens/onboarding/onboarding.dart';
 
 import 'package:shopin/utils/theme/theme.dart';

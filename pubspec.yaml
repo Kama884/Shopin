@@ -19,6 +19,7 @@ dependencies:
   flutter_native_splash: ^2.4.7
   #lottie: ^3.4.0
   smooth_page_indicator: ^2.0.1
+  get: ^4.7.3
 
 #------------------------------------
 dev_dependencies:
