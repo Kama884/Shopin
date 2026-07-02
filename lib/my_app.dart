@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:shopin/features/authentication/screens/onboarding/onboarding.dart';
 
 import 'package:shopin/utils/theme/theme.dart';
+import 'package:get/get.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       theme: Stheme.lightTheme,
       darkTheme: Stheme.darkTheme,
       debugShowCheckedModeBanner: false,
